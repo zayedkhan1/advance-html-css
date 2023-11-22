@@ -1,0 +1,36 @@
+
+
+h2{
+    margin: 40px;
+}
+h2:hover{
+    background-color: red;
+    padding: 15px;
+}
+.middle:focus{
+    background-color: coral;
+    font-size: 20px;
+
+}
+a:visited{
+    color: blue;
+}
+ ul li:first-child{
+    color: red;
+}
+ul li:last-child{
+    color: blueviolet;
+}
+ul li:nth-child(2n){
+    color: cornflowerblue;
+}
+ul li:nth-child(2n-1){
+    background-color: chartreuse;
+}
+h3::before{
+    content: "Hellow ";
+}
+h3::after{
+    content: " gelo";
+    font-size: 15px;
+}
