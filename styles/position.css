@@ -1,0 +1,25 @@
+.swiming div{
+    border: 1px dotted pink;
+    width: 300px;
+}
+#boy{
+    position: relative;
+    top: 70px;
+    z-index: 2;
+
+}
+#ring{
+    position: relative;
+    bottom: 300px;
+    z-index: 1;
+    
+}
+#water{
+    position: relative;
+   
+   
+}
+.stick{
+    background-color: pink;
+}
+
