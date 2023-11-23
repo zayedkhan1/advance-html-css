@@ -152,3 +152,106 @@
 
 
 /* blueblaa cricekt section style */
+
+
+/* animation section style */
+
+.animation_section{
+    margin-top: 40px;
+}
+.stage{
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+
+}
+.bull{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: lightgreen;
+    animation: slide  1s  ease-in-out  0.5s  6  alternate  ;
+    animation-play-state: running;
+    position: relative;
+
+}
+@keyframes slide {
+    0%{
+        background-color: lightgreen;
+        left: 0px;
+        top:0px;
+    }
+    25%{
+        top: 200px;
+        background-color: yellow;
+        transform: scale(0.5);
+
+       
+    }
+    50%{
+           top: 0px;
+           background-color: red;
+           scale: 1;
+           transform: scale(1);
+
+    }
+    75%{
+        top: 200px;
+        background-color: yellow;
+        transform: scale(0.5);
+
+       
+    }
+    100%{
+        background-color: maroon;
+        left: 400px;
+        top: 0px;
+    }
+    
+}
+.football{
+    margin-top: 40px;
+
+}
+
+.white{
+    width: 600px;
+    height: 500px;
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+.black{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid red;
+    background-color: lightblue;
+
+   animation: boom  0.3s  ease-in-out  0.5s  10  alternate  ;
+   animation-play-state: running;
+   position:relative;
+
+}
+
+@keyframes boom {
+    0%{
+        background-color: lightblue;
+        top: 0px;
+
+    }
+    
+
+50%{
+    background-color: gold;
+   
+} 
+    100%{
+     background-color: aquamarine;
+     top:350px ;
+
+    transform: scale(0.5);
+    }
+}
+
+
+/* animation section style */
