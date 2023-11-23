@@ -1,0 +1,56 @@
+
+
+
+/* overflow and tooltip desgine */
+
+
+
+.mega_box{
+    width: 500px;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 4px solid black;
+    overflow:scroll;
+    overflow-x: hidden;
+  
+}
+.small_box{
+    margin-top: 40px;
+    width: 500px;
+    height: 400px;
+    background-color:cornflowerblue;
+    border: 4px solid black;
+}
+.mini_mini{
+
+    width: 150px;
+    border: 3px solid rebeccapurple;
+    margin-bottom: 2px;
+    overflow: hidden;
+ 
+}
+.short{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* overflow and tooltip desgine */
+
+/* Transform and Translate desgine */
+
+
+.container,.inner{
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+}
+.container{
+    background-color: lightgrey;
+
+
+}
+.inner{
+    background-color: lightcoral;
+    transform: scale(0.78) rotate(8deg) skew(45deg);
+}
+/* Transform and Translate desgine */
