@@ -54,3 +54,26 @@
     transform: scale(0.78) rotate(8deg) skew(45deg);
 }
 /* Transform and Translate desgine */
+
+/* Transition and animation style */
+.box2{
+    width: 250px;
+    height: 250px;
+    border: 4px solid black;
+    background-color:lightpink;
+    margin-top: 30px;
+    transition: width 5s ease 2s , height 5s ease 3s , transform 3s ;
+  
+
+
+}
+.box2:hover{
+    width: 400px;
+    height: 400px;
+    background-color: lightsalmon;
+    transform: rotate(360deg);
+
+}
+
+
+/* Transition and animation style */
