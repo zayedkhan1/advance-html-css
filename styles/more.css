@@ -255,3 +255,45 @@
 
 
 /* animation section style */
+
+/* visiblity section style */
+
+.visiblity{
+    margin-top: 40px;
+}
+.box_l{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: lightcoral;
+}
+#bull-3{
+    color: aquamarine;
+   
+    visibility:hidden;
+}
+
+
+/* visiblityt section style */
+
+/* custom secton style */
+:root{
+    --primary-color:purple;
+}
+
+h1{
+
+    color: var(--primary-color);
+}
+#pakhi-3{
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    width: calc(100%-80%);
+}
+p{
+    color:var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+
+/* custom secton style */
