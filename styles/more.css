@@ -297,3 +297,17 @@ p{
 
 
 /* custom secton style */
+/* specificity section style */
+h1{
+    background-color: red;
+    background-color: salmon;
+}
+.train{
+    background-color: blanchedalmond;
+}
+#bus{
+    background-color: chartreuse;
+}
+
+
+/* specificity section style */
