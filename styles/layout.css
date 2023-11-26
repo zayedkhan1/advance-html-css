@@ -2,16 +2,13 @@
 
 /* Flexbox  section style */
 
-
-
 :root{
    --margin-top: 30px;
    --border: 3px solid black;
+    --margin-bottom: 40px;
 }
 .flexbox_section{
-    margin-top: var(--margin-top);
-    
-            
+    margin-top: var(--margin-top);   
 }
 .flexbox{
  border: var(--border);
@@ -24,9 +21,6 @@
  flex-direction:row;
  flex-wrap: wrap; */
 }
-
-
-
 
 .box{
     border: 3px dashed peru;
@@ -42,7 +36,63 @@
 
 /* Flexbox  section style */
 
+/* login section style */
 
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightpink;
+    margin-top: var(--margin-top);
+}
+.login_section{
+ 
+    border: var(--border);
+    display: flex;
+    justify-content: center;
+
+}
+.login_form{
+margin-top: var(--margin-top);
+margin-bottom: var(--margin-bottom);
+display: flex;
+flex-direction: column;
+width: 50%;
+justify-content: center;
+border: var(--border);
+}
+.login_form input{
+    margin-top: 12px;
+    font-size: 24px;
+    padding: 6px 10px;
+}
+.login_form input[type="submit"]{
+    background-color: orange;
+    border: 0px solid whitesmoke;
+    border-radius: 4px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login section style */
 
 
 
