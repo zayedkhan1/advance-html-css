@@ -92,6 +92,9 @@ grid-template-rows: 30px repeat(5,75px);
     border-radius: 3px;
     
 }
+.bar{
+    background-color:aquamarine;
+}
 .gra{
     background-color:darkgray;
 }
