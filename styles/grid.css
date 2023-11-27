@@ -35,7 +35,8 @@
     font-size: 18px;
     padding: 8px;
 }
-/* grid layout style */
+/* grid layout style */ 
+
 /* calander section style */
 .calander_section{
     margin-top: 40px;
@@ -64,6 +65,35 @@
 .new{
     color: gray;
 }
+.calender_2{
+    margin-top: 40px;
 
+}
+.calander2_title{
+    font-size: 30px;
+    text-align: center;
+    text-decoration:underline;
+}
+.new_calander{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+grid-template-rows: 30px repeat(5,75px);
+
+}
+.date,.bar{
+    background-color: lightcoral;
+    font-size: 2rem;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+}
+.gra{
+    background-color:darkgray;
+}
 
 /* calander section style */
