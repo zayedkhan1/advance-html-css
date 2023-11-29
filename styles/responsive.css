@@ -83,6 +83,56 @@
 .col div{
     height: calc(50% - 5px/2);
 }
-
+@media screen and (max-width:576px) {
+    .row,.third_row{
+        flex-direction: column;
+    }
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 /* complex flex section style */
+/* complex flex section repeat style */
+
+
+.repeat_flex{
+    margin-top: 30px;
+}
+
+
+.fifth_row{
+   height: 600px;
+   margin-bottom: 5px;
+
+}
+.fifth_row img{
+    height: 100%;
+    width: 100%;
+}
+.sixth_row{
+    display: flex;
+    gap: 5px;
+    height: 700px;
+}
+.sixth_row img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.seventh_row{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 350px;
+}
+.seventh_row img{
+    height: 350px;
+}
+
+.sixth_row > div{
+    flex: 1;
+}
+
+/* complex flex section repeat style */
