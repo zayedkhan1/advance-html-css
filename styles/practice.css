@@ -1,0 +1,122 @@
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2AFEF;
+    margin: 0px 140px;
+
+}
+.banner{
+    height: 60px;
+    width: 60px;
+     border-radius: 50px;
+}
+nav{
+ display: flex;
+ gap: 15px;
+
+}
+
+nav li{
+list-style-type: none;
+font-size: 19px;
+font-weight: 500;
+}
+nav li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+main{
+    margin: 0px 140px;
+}
+.decdicat_members{
+    background-color:whitesmoke;
+}
+
+.members{
+    display: flex;
+ justify-content: center;
+}
+.members_div{
+    
+    text-align: center;
+    margin: 0px 60px;
+
+}
+.logos{
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+}
+.members_numbers{
+    font-weight: 600;
+    font-size: 20px;
+}
+.members_identity{
+    font-size: 20px;
+}
+.Members_title{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:40px;
+    padding: 1px;
+margin-bottom: 5px;
+}
+.our_work{
+    background-color: #C499F3;
+}
+.our_work_title{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:40px;
+    padding: 1px;
+    margin-bottom: 5px;
+
+}
+.work_cover{
+    display: flex;
+    justify-content: center;
+
+}
+.work{
+text-align: center;
+    margin: 8px 5px;
+}
+.work_images{
+    height: 300px;
+    width: 300px;
+}
+.work_title{
+    font-size: 25px;
+}
+.work_details{
+font-size: 15px;
+}
+button{
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: orange;
+}
+footer{
+    margin: 0px 140px;
+    background-color: red;
+    padding: 1px;
+}
+.footer_title{
+    align-items: center;
+}
+.footer_details_title{
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.min_footer{
+    align-items: center;
+}
